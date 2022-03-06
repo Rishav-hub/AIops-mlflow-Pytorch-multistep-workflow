@@ -1,6 +1,4 @@
-# generic-python-project-template
-generic-python-project-template
-
+# simple-mlflow-multistep-workflow
 ## STEPS -
 
 ### STEP 01- Create a repository by using template repository
@@ -27,3 +25,27 @@ pip install -r requirements.txt
 ```
 
 ### STEP 06- commit and push the changes to the remote repository
+
+
+
+## commands -
+
+* simple workflow execution `with` new conda env
+    ```bash
+    mlflow run .
+    ```
+
+* simple workflow execution `without` new conda env
+    ```bash
+    mlflow run . --no-conda
+    ```
+
+* simple workflow execution `without` new conda env with parameters
+    ```bash
+    mlflow run . -P param=value --no-conda
+    ```
+
+* run only entry point 
+    ```bash
+    mlflow run . -e entry_point_name
+    ```
