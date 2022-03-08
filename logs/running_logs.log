@@ -1,0 +1,22 @@
+[2022-03-09 00:03:25,774: INFO: stage_01_get_data]: 
+********************
+[2022-03-09 00:03:25,775: INFO: stage_01_get_data]: >>>>> stage GET_DATA started <<<<<
+[2022-03-09 00:03:25,775: ERROR: stage_01_get_data]: 'Namespace' object has no attribute 'params'
+Traceback (most recent call last):
+  File "src/stage_01_get_data.py", line 76, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+AttributeError: 'Namespace' object has no attribute 'params'
+[2022-03-09 00:03:59,832: INFO: stage_01_get_data]: 
+********************
+[2022-03-09 00:03:59,832: INFO: stage_01_get_data]: >>>>> stage GET_DATA started <<<<<
+[2022-03-09 00:03:59,854: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-09 00:03:59,854: INFO: stage_01_get_data]: define training kwargs
+[2022-03-09 00:03:59,854: INFO: stage_01_get_data]: updating device configuration as per cuda availablity
+[2022-03-09 00:03:59,854: INFO: stage_01_get_data]: transforms added
+[2022-03-09 00:03:59,855: INFO: stage_01_get_data]: downloading training and testing data
+[2022-03-09 00:04:04,164: INFO: stage_01_get_data]: defining training and testing data loader
+[2022-03-09 00:04:04,167: INFO: common]: created directory at: artifacts\model_config
+[2022-03-09 00:04:04,253: INFO: model_utils]: model_config is saved at artifacts\model_config\train_loader.bin
+[2022-03-09 00:04:04,266: INFO: model_utils]: model_config is saved at artifacts\model_config\test_loader.bin
+[2022-03-09 00:04:04,275: INFO: stage_01_get_data]: >>>>> stage GET_DATA completed!<<<<<
+

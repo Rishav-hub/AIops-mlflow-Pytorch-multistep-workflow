@@ -5,9 +5,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 ## edit below variables as per your requirements -
 REPO_NAME = "REPO_NAME"
-AUTHOR_USER_NAME = "c17hawke"
+AUTHOR_USER_NAME = "Rishav-hub"
 SRC_REPO = "src"
-LIST_OF_REQUIREMENTS = []
+LIST_OF_REQUIREMENTS = ["mlflow"]
 
 
 setup(
@@ -18,7 +18,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
-    author_email="sunny.c17hawke@gmail.com",
+    author_email="9930046@gmail.com",
     packages=[SRC_REPO],
     license="MIT",
     python_requires=">=3.6",
