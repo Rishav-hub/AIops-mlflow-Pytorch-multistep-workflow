@@ -58,3 +58,8 @@ AttributeError: 'Namespace' object has no attribute 'params'
 [2022-03-09 00:24:27,180: INFO: model_utils]: model_config is saved at artifacts\model_config\test_loader.bin
 [2022-03-09 00:24:27,188: INFO: stage_01_get_data]: >>>>> stage GET_DATA completed!<<<<<
 
+[2022-03-09 00:24:35,120: INFO: stage_02_train]: 
+********************
+[2022-03-09 00:24:35,120: INFO: stage_02_train]: >>>>> stage TRAINING started <<<<<
+[2022-03-09 00:24:35,123: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-09 00:24:35,955: INFO: model_utils]: model_config is loaded from artifacts\model_config\train_loader.bin
