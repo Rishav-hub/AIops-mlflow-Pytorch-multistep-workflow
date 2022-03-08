@@ -20,3 +20,41 @@ AttributeError: 'Namespace' object has no attribute 'params'
 [2022-03-09 00:04:04,266: INFO: model_utils]: model_config is saved at artifacts\model_config\test_loader.bin
 [2022-03-09 00:04:04,275: INFO: stage_01_get_data]: >>>>> stage GET_DATA completed!<<<<<
 
+[2022-03-09 00:12:01,820: INFO: stage_02_train]: 
+********************
+[2022-03-09 00:12:01,820: INFO: stage_02_train]: >>>>> stage TRAINING started <<<<<
+[2022-03-09 00:12:01,824: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-09 00:12:02,708: INFO: model_utils]: model_config is loaded from artifacts\model_config\train_loader.bin
+[2022-03-09 00:15:22,603: INFO: stage_02_train]: 
+********************
+[2022-03-09 00:15:22,603: INFO: stage_02_train]: >>>>> stage TRAINING started <<<<<
+[2022-03-09 00:15:22,612: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-09 00:15:23,666: INFO: model_utils]: model_config is loaded from artifacts\model_config\train_loader.bin
+[2022-03-09 00:23:34,929: INFO: stage_01_get_data]: 
+********************
+[2022-03-09 00:23:34,930: INFO: stage_01_get_data]: >>>>> stage GET_DATA started <<<<<
+[2022-03-09 00:23:34,938: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-09 00:23:34,938: INFO: stage_01_get_data]: define training kwargs
+[2022-03-09 00:23:34,939: INFO: stage_01_get_data]: updating device configuration as per cuda availablity
+[2022-03-09 00:23:34,939: INFO: stage_01_get_data]: transforms added
+[2022-03-09 00:23:34,939: INFO: stage_01_get_data]: downloading training and testing data
+[2022-03-09 00:23:35,030: INFO: stage_01_get_data]: defining training and testing data loader
+[2022-03-09 00:23:35,031: INFO: common]: created directory at: artifacts\model_config
+[2022-03-09 00:23:35,133: INFO: model_utils]: model_config is saved at artifacts\model_config\train_loader.bin
+[2022-03-09 00:23:35,148: INFO: model_utils]: model_config is saved at artifacts\model_config\test_loader.bin
+[2022-03-09 00:23:35,157: INFO: stage_01_get_data]: >>>>> stage GET_DATA completed!<<<<<
+
+[2022-03-09 00:24:27,024: INFO: stage_01_get_data]: 
+********************
+[2022-03-09 00:24:27,025: INFO: stage_01_get_data]: >>>>> stage GET_DATA started <<<<<
+[2022-03-09 00:24:27,028: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-09 00:24:27,028: INFO: stage_01_get_data]: define training kwargs
+[2022-03-09 00:24:27,028: INFO: stage_01_get_data]: updating device configuration as per cuda availablity
+[2022-03-09 00:24:27,028: INFO: stage_01_get_data]: transforms added
+[2022-03-09 00:24:27,028: INFO: stage_01_get_data]: downloading training and testing data
+[2022-03-09 00:24:27,087: INFO: stage_01_get_data]: defining training and testing data loader
+[2022-03-09 00:24:27,089: INFO: common]: created directory at: artifacts\model_config
+[2022-03-09 00:24:27,168: INFO: model_utils]: model_config is saved at artifacts\model_config\train_loader.bin
+[2022-03-09 00:24:27,180: INFO: model_utils]: model_config is saved at artifacts\model_config\test_loader.bin
+[2022-03-09 00:24:27,188: INFO: stage_01_get_data]: >>>>> stage GET_DATA completed!<<<<<
+
